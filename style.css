@@ -25,6 +25,10 @@ body{
 /* HEADER SECTION */
 /* ========================= */
 
+/* ========================= */
+/* HEADER SECTION */
+/* ========================= */
+
 .header{
     display:flex;
     justify-content:space-between;
@@ -42,22 +46,28 @@ body{
     color:#ff6b2c;
 }
 
+/* Navbar */
 .navbar{
     display:flex;
+    align-items:center;
     gap:40px;
 }
 
 .navbar a{
     text-decoration:none;
     color:#a7a7a7;
+    font-size:18px;
+    transition:.3s;
 }
 
 .navbar a:hover{
-    color:white;
+    color:#ffffff;
 }
 
+/* Right Side Buttons */
 .header-btns{
     display:flex;
+    align-items:center;
     gap:15px;
 }
 
@@ -68,14 +78,21 @@ body{
     border:1px solid #333;
     background:transparent;
     color:white;
+    cursor:pointer;
 }
 
 .hire-btn{
     background:#ff6b2c;
     color:white;
     border:none;
-    padding:15px 25px;
+    padding:15px 28px;
     border-radius:30px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.hire-btn:hover{
+    background:#ff814d;
 }
 
 /* ========================= */
