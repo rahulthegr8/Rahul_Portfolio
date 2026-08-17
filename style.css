@@ -274,6 +274,120 @@ body{
     width:500px;
     border-radius:25px;
 }
+
+/* ========================================= */
+/* ABOUT CONTACT BOX */
+/* ========================================= */
+
+.about-contact-box{
+    width:100%;
+    display:flex;
+    align-items:center;
+    gap:55px;
+
+    background:#1d1d1d;
+    border:1px solid #353535;
+
+    padding:22px 28px;
+    margin-top:35px;
+    margin-bottom:30px;
+
+    border-radius:28px;
+}
+
+
+/* EMAIL + PHONE ITEM */
+
+.about-contact-item{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    flex:1;
+}
+
+
+/* ROUND ICON */
+
+.contact-icon{
+    width:52px;
+    height:52px;
+
+    min-width:52px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:#c6ff00;
+    color:#08090d;
+
+    border-radius:50%;
+
+    font-size:23px;
+    font-weight:bold;
+}
+
+
+/* CONTACT TEXT */
+
+.contact-info{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+
+/* EMAIL ME / CALL ME */
+
+.contact-info span{
+    color:#a7a7a7;
+    font-size:16px;
+    font-weight:600;
+}
+
+
+/* EMAIL ADDRESS + PHONE NUMBER */
+
+.contact-info a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+
+    transition:0.3s;
+}
+
+
+/* HOVER */
+
+.contact-info a:hover{
+    color:#c6ff00;
+}
+
+
+/* ========================================= */
+/* MOBILE RESPONSIVE */
+/* ========================================= */
+
+@media(max-width:768px){
+
+    .about-contact-box{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:22px;
+        padding:22px;
+    }
+
+    .about-contact-item{
+        width:100%;
+    }
+
+    .contact-info a{
+        font-size:15px;
+        word-break:break-word;
+    }
+
+}
 /* ========================================= */
 /* ABOUT CONTACT BOX */
 /* ========================================= */
